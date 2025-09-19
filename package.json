@@ -1,0 +1,35 @@
+{
+  "name": "backend-project-walletfy",
+  "version": "1.0.0",
+  "description": "Backend project for Walletfy application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniloTorres2001/Backend-Project-Walletfy.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "API",
+    "Backend",
+    "Walletfy"
+  ],
+  "author": "Danilo Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniloTorres2001/Backend-Project-Walletfy/issues"
+  },
+  "homepage": "https://github.com/DaniloTorres2001/Backend-Project-Walletfy#readme",
+  "dependencies": {
+    "express": "5.1.0",
+    "express-validator": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
